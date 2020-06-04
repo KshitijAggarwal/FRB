@@ -41,11 +41,11 @@ def test_halo_incidence():
         return
     # Run
     Navg = halos.halo_incidence(1e12, 1., Mhigh=3e12)
-    assert np.isclose(Navg, 22.13174071034526)
+    assert np.isclose(Navg, 1.1079098177338418)
     # Cumulative now
     zeval, Ncumul = halos.halo_incidence(1e13, 1., Mhigh=3e13, cumul=True)
     assert zeval.size == 20
-    assert np.isclose(Ncumul[-1], 11.153366432166912)
+    assert np.isclose(Ncumul[-1], 0.5578253455474869)
 
 def test_YF17():
     yf17 = halos.YF17()
