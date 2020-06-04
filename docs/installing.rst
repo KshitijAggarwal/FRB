@@ -70,8 +70,10 @@ The following are required to run some of the halo codes:
 
 * `ne2001 <https://github.com/FRBs/ne2001.git>`_  NE2001
 * `hmf_emulator <https://github.com/AemulusProject/hmf_emulator>`_
+* `Aemulator <https://github.com/AemulusProject/Aemulator>`_
 * george :: Use pip
 * `class <https://github.com/lesgourg/class_public>`_ version 2.7 or greater
+* classy :: Use pip
 
 The following are required to build host galaxy objects:
 
